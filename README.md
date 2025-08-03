@@ -10,7 +10,7 @@ Joshua Arldt's coding assignment submission.
 |---------------------|----------------------------|--------|
 | Deploy ZIP          | `/deploy`                  | POST   |
 | List Sites          | `/sites`                   | GET    |
-| Delete Site         | `/sites/{name}`            | DELETE |
+| Delete Site         | `/delete/{site}`           | DELETE |
 | Serve Static Files  | `/sites/{site}/{path...}`  | GET    |
 | View Deploy Logs    | `/logs/{site}`             | GET    |
 
